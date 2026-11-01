@@ -16,7 +16,7 @@
         <iframe id="site" srcdoc="" style="width:100vw;height:100vh;border:0px;"></iframe>
         <script>
             async function fetchSite() {
-                let htmlString = await fetch("https://cdn.jsdelivr.net/gh/0xPYROSPHERE/hypertl@cdc0f06a216d119c3994cefe4d34a6ca318b244b/hypertranslate/index.html");
+                let htmlString = await fetch("https://cdn.jsdelivr.net/gh/0xPYROSPHERE/hypertl@6a9769407493481e43d0089a3b89ce80ddfe18e4/hypertranslate/index.html");
                     htmlString = await htmlString.text();
                     return htmlString;
                 }
